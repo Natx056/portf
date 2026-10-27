@@ -1,0 +1,104 @@
+@font-face {
+  font-family: "Philosofer-bold";
+  src: url(/font/Philosopher-Bold.ttf);
+}
+
+@font-face {
+  font-family: "Redhat";
+  src: url(/font/RedHatDisplay-Regular.ttf);
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Philosofer-bold";
+}
+h1 {
+  color: #dc006e;
+}
+h2,
+h3 {
+  color: #242222;
+}
+p,
+a,
+li {
+  font-family: "Redhat";
+  color: #242222;
+}
+
+p {
+  padding-bottom: 1.5rem;
+  padding-top: 1rem;
+}
+.namepic h1 {
+  font-size: 96px;
+}
+
+.projectpagegrid {
+  gap: 5rem;
+  margin: 3rem;
+  margin-top: 4rem;
+}
+.projectpagegrid p {
+  max-width: 550px;
+}
+.projectpagegrid ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  max-width: 550px;
+}
+.projectpagegrid li {
+  list-style: none;
+  border-style: solid;
+  border-color: #dc006e;
+  padding: 0.5rem;
+  border-width: 1px;
+}
+.intern {
+  margin: 0;
+  /* margin-top: 3rem; */
+  background-color: #dc006e;
+  padding: 3rem;
+  padding-left: 10rem;
+}
+.intern p {
+  color: #faf9f6;
+  max-width: 550px;
+}
+.intern h2 {
+  color: #faf9f6;
+  font-size: 40px;
+}
+footer {
+  /* background-color: #dc006e; */
+
+  padding-left: 10rem;
+}
+.selected{
+    font-size: 40px;
+    padding-bottom: 2rem;
+}
+.heroinfo li{
+    list-style: none;
+  border-style: solid;
+  border-color: #dc006e;
+  padding: 0.5rem;
+  border-width: 1px;
+}
+.heroinfo ul{
+    display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  max-width: 550px;
+}
+.nextpage{
+    display: flex;
+    margin: 1rem;
+    place-content: right;
+}
+.goback{
+    display: flex;
+    margin: 1rem;
+}
